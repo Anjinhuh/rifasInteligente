@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0 0 0 0;
+  font-size: 62.5%;
+
+}
+.App{
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 100vh;
+}
+.App > .announcePart{
+  background-color: #4A4A4A;
+  width: 100%;
+  height: 100vh;
+}
+.logoDiv{
+  display: flex;
+  align-items: center;
+}
+.headerPart{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4vw 3vw 0 3vw; 
+}
+.textDiv{
+  display: flex;
+}
+.textDiv > p{
+ font-family: "Roboto";
+ font-size: 1.2vw; 
+ color: #F6DE2A;
+ margin-left: 1.2vw;
+}
+.announceCreate{
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  flex-direction: column;
+  margin: 10vh 0 0 0;
+  color: #fff;
+  font-family: "Roboto"; 
+}
+.firstText{
+  font-size: 3.5vw;
+
+}
+.textDiferent{
+  font-size: 2.5vw;
+
+  display: flex;
+  justify-content: center;
+  
+}
+.inteligentText{
+  font-size: 2.5vw;
+  margin: 0 6px 0 6px;
+  color: #F6DE2A;
+}
+.buttonAnounce{
+  display: flex;
+  justify-content: center;
+}
+.buttonAnounce > button{
+  font-size: 1.2vw;
+  font-family: "Roboto";
+  width: 13vw;
+  height: 5vh;
+  background-color: #F6DE2A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  border-radius: 30px;
+  margin: 2.2vh 0 0 0;
+}
+.buttonAnounce > button:hover{
+  background-color: #bea906;
+
+}
