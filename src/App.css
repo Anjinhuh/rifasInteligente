@@ -33,8 +33,15 @@
  color: #F6DE2A;
  margin-left: 1.2vw;
 }
-.announceCreate{
+.announceFix{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.announceCreate{
+  
   justify-content: center;
 
   text-align: center;
@@ -44,37 +51,36 @@
   font-family: "Roboto"; 
 }
 .firstText{
-  font-size: 3.5vw;
+  font-size: calc(3.5vw + 1rem);
 
 }
 .textDiferent{
-  font-size: 2.5vw;
+  font-size: calc(2.5vw + 1rem);
 
   display: flex;
   justify-content: center;
   
 }
 .inteligentText{
-  font-size: 2.5vw;
+  font-size: calc(2vw + 1.7rem);
   margin: 0 6px 0 6px;
   color: #F6DE2A;
 }
 .buttonAnounce{
-  display: flex;
+ 
   justify-content: center;
 }
 .buttonAnounce > button{
-  font-size: 1.2vw;
+  font-size: calc(0.8vw + 0.9rem);
   font-family: "Roboto";
   width: 13vw;
   height: 5vh;
   background-color: #F6DE2A;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+
   border-style: none;
   border-radius: 30px;
-  margin: 2.2vh 0 0 0;
+  margin-top: 2.2vh ;
 }
 .buttonAnounce > button:hover{
   background-color: #bea906;
