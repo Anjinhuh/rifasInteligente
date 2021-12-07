@@ -28,6 +28,9 @@ function App() {
             </div>
           </div>
        </div>
+       <div className="helpText">
+        
+       </div>
     </div>
   );
 }
