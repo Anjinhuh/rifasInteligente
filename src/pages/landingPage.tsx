@@ -1,11 +1,19 @@
-import React from 'react';
-import logo from './logoRifas.svg'
-import dinheiro from './dinheirovector.svg'
-import text from './Rifasinteligente.svg'
+import React, { useEffect } from 'react';
+import logo from './public/logoRifas.svg'
+import dinheiro from './public/dinheirovector.svg'
+import text from './public/Rifasinteligente.svg'
 import './App.css';
+import api from '../services/api';
+import { createEmitAndSemanticDiagnosticsBuilderProgram } from 'typescript';
 
-function App() {
+export default function Ladingpage() {
+  useEffect(() => {
+    api.get('/').then(response =>{
+      console.log(response.data)
+    })
+  })
   return (
+    
     <div className="App">
        <div className="announcePart">
           <header className="headerPart">
@@ -63,4 +71,3 @@ function App() {
   );
 }
 
-export default App;
