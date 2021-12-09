@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import logo from './public/logoRifas.svg'
 import dinheiro from './public/dinheirovector.svg'
 import text from './public/Rifasinteligente.svg'
-import './App.css';
+import './landing.css';
 import api from '../services/api';
 import { createEmitAndSemanticDiagnosticsBuilderProgram } from 'typescript';
 
