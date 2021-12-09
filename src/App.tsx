@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logoRifas.svg'
+import dinheiro from './dinheirovector.svg'
 import text from './Rifasinteligente.svg'
 import './App.css';
 
@@ -29,7 +30,34 @@ function App() {
           </div>
        </div>
        <div className="helpText">
-        
+         <div>   
+            <div className="text">
+                <p className="AA0">Contamos com sua ajuda!</p>  
+                <p className="AA1">Assim como você, nós precisamos de ajuda. </p>
+                <p className="AA1">Apesar de estarmos no início, temos maturidade para negócios.</p>
+                <p className="AA1">Nós temos como principal objetivo a segurança e agilidade. </p>
+                <p className="AA1">Tal motivo, resulta em nosso nome, Rifa Inteligente.</p>
+            </div>
+
+            <div className="text">
+                <p className="AA0">Aproveite as condições</p>  
+                <p className="AA1">Como estamos no início, promovemos alguns benefícios, como os mostrado ao lado</p>
+            </div>
+         </div>
+         <div className="boxBeneficios">
+          <img src={dinheiro} alt="Dinheiro" />
+          <p className="AA2">SEM TAXA!</p>
+          <p className="AA3">Condiçoes especiais</p>
+          <div className="fixAA4">
+            <p className="AA4">° Caso não haja a meta alcançada</p>
+            <p className="AA4">° Caso o prazo não se cumpra</p>
+            <p className="AA4">° Pagamento feito em até 24 HRS</p>
+          </div>
+          
+
+          
+
+         </div>
        </div>
     </div>
   );

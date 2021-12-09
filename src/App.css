@@ -88,5 +88,58 @@
 }
 .helpText{
   width: 100%;
-  height: 100vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.text{
+  margin: 2.5vw 0 0 7vw;
+  display: flex;
+  flex-direction: column;
+}
+.AA0{
+  font-family: "Roboto";
+  font-size: calc(1.5vw + 0.9rem);
+}
+.AA1{
+  font-family: "Roboto";
+  font-size: calc(0.8vw + 0.9rem);
+  margin-left: 2vw;
+}
+.boxBeneficios{
+  width: 15vw;
+  height: 30vh ;
+
+  background-color: #fff;
+  display: flex;
+
+  margin: 3vw 0 0 4vw ;
+  border: 1px solid #000 ;
+  border-radius: 20px;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto";
+}
+.boxBeneficios > img{
+  width: 7vw;
+  height: 7vh;
+  margin-top: 1.3rem ;
+}
+.boxBeneficios > .AA2{
+
+  font-size: calc(1.0vw + 0.7rem);
+  font-weight: 600;
+  margin-top: 1.3rem ;
+}
+.boxBeneficios > .AA3{
+  font-size: calc(0.6vw + 0.7rem);
+}
+.fixAA4{
+  margin-top: 1.3rem;
+}
+.fixAA4 > .AA4{
+  
+  font-size: calc(0.6vw + 0.4rem);
 }
