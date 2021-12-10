@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header{
+    background-color: #4A4A4A;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8vw;
+}
+
+.logoDiv{
+    display: flex;
+    align-items: center;
+}
+.text{
+    display: flex;
+  }
+.text > p{
+    
+   font-family: "Roboto";
+   font-size: 1.2vw; 
+   color: #F6DE2A;
+   margin-left: 1.2vw;
+  }

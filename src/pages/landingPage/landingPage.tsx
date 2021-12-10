@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import logo from './public/logoRifas.svg'
-import dinheiro from './public/dinheirovector.svg'
-import text from './public/Rifasinteligente.svg'
+import logo from '../public/logoRifas.svg'
+import dinheiro from '../public/dinheirovector.svg'
+import text from '../public/Rifasinteligente.svg'
 import './landing.css';
-import api from '../services/api';
-import { createEmitAndSemanticDiagnosticsBuilderProgram } from 'typescript';
+import api from '../../services/api';
+
 
 export default function Ladingpage() {
   useEffect(() => {
@@ -61,9 +61,6 @@ export default function Ladingpage() {
             <p className="AA4">° Caso o prazo não se cumpra</p>
             <p className="AA4">° Pagamento feito em até 24 HRS</p>
           </div>
-          
-
-          
 
          </div>
        </div>
