@@ -23,3 +23,74 @@
    color: #F6DE2A;
    margin-left: 1.2vw;
   }
+.fixBoxes{
+    display: flex;
+    flex-direction: column;
+}
+.boxRifas{
+    width: 98%;
+    height: 60vh;
+    background-color: #F8F8F8;
+    margin: 2vh;
+    box-shadow: 0 0 1px black;
+
+    display: flex;
+}
+.boxRifas > img{ 
+    width: 38%;
+    height: 60vh;
+    margin: 0 0 0 4vh;
+}
+.titleRifa{
+    font-family: "Roboto";
+    font-size: 2.2vw; 
+    margin: 2.5vh 0 0 4vh;
+    justify-content: center;
+}
+.descriptionRifa{
+    font-family: "Roboto";
+    font-size: 1.5vw; 
+
+    color: #4A4A4A ;
+
+
+    margin: 2.5vh 0 0 4vh;
+}
+.moneySection{
+    margin: 4vh 0 0 4vh;
+    width: 90%;
+    height: 7vh;
+    background-color: #24FF00;
+
+    border-radius: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moneySection > p{
+    font-family: "Roboto";
+    font-size: 1vw; 
+    font-weight: bold;
+}
+.doarSection{
+    margin: 14vh 0 0 25vh;
+    width: 50%;
+    height: 7vh;
+    background-color: #F6DE2A;
+
+    border-radius: 30px;
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doarSection:hover{
+    background-color: #ffe100;
+
+}
+.doarSection > p{
+    font-family: "Roboto";
+    font-size: 1vw; 
+    font-weight: bold;
+}

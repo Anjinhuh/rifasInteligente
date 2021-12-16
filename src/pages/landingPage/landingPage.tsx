@@ -39,7 +39,7 @@ export default function Ladingpage() {
        </div>
        <div className="helpText">
          <div>   
-            <div className="text">
+            <div className="detailHelptext">
                 <p className="AA0">Contamos com sua ajuda!</p>  
                 <p className="AA1">Assim como você, nós precisamos de ajuda. </p>
                 <p className="AA1">Apesar de estarmos no início, temos maturidade para negócios.</p>
@@ -47,7 +47,7 @@ export default function Ladingpage() {
                 <p className="AA1">Tal motivo, resulta em nosso nome, Rifa Inteligente.</p>
             </div>
 
-            <div className="text">
+            <div className="detailHelptext">
                 <p className="AA0">Aproveite as condições</p>  
                 <p className="AA1">Como estamos no início, promovemos alguns benefícios, como os mostrado ao lado</p>
             </div>
